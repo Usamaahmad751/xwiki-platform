@@ -530,7 +530,6 @@ return XWiki;
 #user-page-content{
   margin-left: 14em;
 }
-
 .column h1 {
   font-weight:bold;
   font-size:115%;
@@ -577,7 +576,6 @@ div.userInfo, div.userPreferences, div.watchlistManagement, div.userDashboard {
 .userInfo {
   -ms-word-break: break-all; /* IE8, IE9 */
 }
-
 .userInfo a {
   word-wrap: break-word;
 }
@@ -681,7 +679,10 @@ span#avatarUpload {
   width: 18px !important;
   z-index: 1;
 }
-
+.userInfo h2 {
+    font-weight: bold;
+    font-size: 17px;
+}
 ## --------------------------------------
 ## Dashboard
 /* prevent the clearfloats between buttons &amp; dashboard gadgets from clearing the tabs as well, only the buttons float */
