@@ -84,8 +84,8 @@ $services.localization.render('platform.core.profile.category.profile.disabled')
         #set ($enableClass = "hidden")
         #set ($disableClass = "")
       #end
-      &lt;a href="#" id="enable" class="xHelp btn btn-success $enableClass"&gt;$services.icon.renderHTML('unlock') $services.localization.render('platform.core.profile.category.profile.enableAccount')&lt;/a&gt;
-      &lt;a href="#" id="disable" class="xHelp btn btn-warning $disableClass"&gt;$services.icon.renderHTML('lock') $services.localization.render('platform.core.profile.category.profile.disableAccount')&lt;/a&gt;
+      &lt;a href="#" id="enable" class="btn btn-success $enableClass"&gt;$services.icon.renderHTML('unlock') $services.localization.render('platform.core.profile.category.profile.enableAccount')&lt;/a&gt;
+      &lt;a href="#" id="disable" class="btn btn-warning $disableClass"&gt;$services.icon.renderHTML('lock') $services.localization.render('platform.core.profile.category.profile.disableAccount')&lt;/a&gt;
     #end
     &lt;div class='userInfo'&gt;
     #if($xcontext.action == 'view' &amp;&amp; $hasEdit)
@@ -174,7 +174,7 @@ $services.localization.render('platform.core.profile.category.profile.disabled')
                 $services.icon.renderHTML('check') $escapetool.xml($services.localization.render('user.profile.network.following')) &lt;span class="caret"&gt;&lt;/span&gt;
               &lt;/button&gt;
               &lt;ul class="dropdown-menu"&gt;
-                &lt;li&gt;&lt;a  href="#" class="xHelp notificationWatchUserRemove"&gt;$services.icon.renderHTML('cross') $escapetool.xml($services.localization.render('user.profile.network.unfollow'))&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#" class="notificationWatchUserRemove"&gt;$services.icon.renderHTML('cross') $escapetool.xml($services.localization.render('user.profile.network.unfollow'))&lt;/a&gt;&lt;/li&gt;
               &lt;/ul&gt;
             &lt;/div&gt;
             &lt;div class="notificationWatchUserNotFollowing  #if($isUserWatched)hidden#end"&gt;
@@ -182,7 +182,7 @@ $services.localization.render('platform.core.profile.category.profile.disabled')
                 $escapetool.xml($services.localization.render('user.profile.network.notfollowing')) &lt;span class="caret"&gt;&lt;/span&gt;
               &lt;/button&gt;
               &lt;ul class="dropdown-menu"&gt;
-                &lt;li&gt;&lt;a href="#" class="xHelp notificationWatchUserAdd"&gt;$services.icon.renderHTML('eye') $escapetool.xml($services.localization.render('user.profile.network.follow'))&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a href="#" class="notificationWatchUserAdd"&gt;$services.icon.renderHTML('eye') $escapetool.xml($services.localization.render('user.profile.network.follow'))&lt;/a&gt;&lt;/li&gt;
               &lt;/ul&gt;
             &lt;/div&gt;
           &lt;/div&gt;
