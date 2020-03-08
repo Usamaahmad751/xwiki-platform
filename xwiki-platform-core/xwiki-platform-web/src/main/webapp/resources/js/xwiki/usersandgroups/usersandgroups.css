@@ -7,7 +7,7 @@
 #specialusersandgroups {
   border-collapse: collapse;
   border: 1px solid $theme.borderColor;
-  width: 99.5%;
+  width: 99.6%;
 }
 
 #specialusersandgroups td {
