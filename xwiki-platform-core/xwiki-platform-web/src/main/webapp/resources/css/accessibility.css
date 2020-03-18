@@ -7,9 +7,3 @@ body {
 a:link, a:active, a:visited {
   text-decoration: underline;
 }
-.xwikitabbar li a, .xwikitabbar li a:visited, .xwikitabbar li a:active{
-  text-decoration: none;
-}
-.actionmenu a:link, .actionmenu a:visited  {
-  text-decoration: none;
-}
